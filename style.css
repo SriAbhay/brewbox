@@ -1,4 +1,4 @@
-* {box-sizing: border-box;}
+* {box-sizing: content-box;}
 
 body {
   margin: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(156, 147, 147);
   color: black;
 }
 
