@@ -46,7 +46,7 @@ body {
   
   #myInput {
     box-sizing: border-box;
-    background-image: url('searchicon.png');
+    background-image: url('images\searchicon.png');
     background-position: 14px 12px;
     background-repeat: no-repeat;
     font-size: 36px;
