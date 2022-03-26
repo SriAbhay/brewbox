@@ -36,7 +36,9 @@ body {
     color: white;
     padding: 16px;
     font-size: 40px;
-    border: none;
+    border-end-end-radius: 2rem;
+    border-start-end-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     cursor: pointer;
   }
   
