@@ -87,3 +87,13 @@ body {
   
   .show {display: block;}
   
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    img {
+      min-width: 25%; /* needed so Firefox doesn't make img shrink to fit */
+      width: 50% /* can't take this out either as it breaks Chrome */
+    }
+  }
