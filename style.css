@@ -90,10 +90,10 @@ body {
   .container {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 20%;
     
     img {
-      min-width: 25%; /* needed so Firefox doesn't make img shrink to fit */
-      width: 50% /* can't take this out either as it breaks Chrome */
+      min-width: 5%; /* needed so Firefox doesn't make img shrink to fit */
+      width: 5% /* can't take this out either as it breaks Chrome */
     }
   }
