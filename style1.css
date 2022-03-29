@@ -98,10 +98,11 @@ a{
 		opacity: 1;
 	}
 }
-.slider{
-	width:100%;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	.slider {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+	
 }
