@@ -18,7 +18,7 @@ a{
 .slide-img img{
 	width:100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: fill;
 	box-sizing: border-box;
 }
 .detail-box{
