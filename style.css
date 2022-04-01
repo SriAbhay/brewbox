@@ -32,8 +32,8 @@ body {
 
   
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #f0f2f1;
+    color: rgb(10, 5, 5);
     padding: 16px;
     font-size: 40px;
     border-end-end-radius: 2rem;
