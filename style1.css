@@ -105,3 +105,17 @@ a{
 		align-items: flex-start;
 	
 }
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+  }
+  
+  
+  .centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
