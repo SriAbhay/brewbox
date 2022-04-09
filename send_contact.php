@@ -23,5 +23,5 @@ echo "We've recived your contact information";
 }
 else {
 echo "ERROR";
-}
+}}
 ?>
