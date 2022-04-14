@@ -86,3 +86,8 @@ body {
   .dropdown a:hover {background-color: #ddd;}
   
   .show {display: block;}
+
+  .rate-lines
+  {
+    text-decoration: none;
+  }
