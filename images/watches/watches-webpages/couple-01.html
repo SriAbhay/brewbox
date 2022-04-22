@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>brewbox.netlify.app</title>
+<link rel="stylesheet" type="text/css" href="style1.css" />
+<link rel="stylesheet" type="text/css" href="lightslider.css" />
+<script src="jquery-3.5.1.js" ></script>
+<script src="lightslider.js" ></script>
+<script>
+	  $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+	</script>
+  
+  <style>
+  div.scrollmenu1 {
+    background-color: rgb(240, 237, 237);
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu1 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu1 a:hover {
+    background-color: #777;
+  }
+  </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://brewbox.netlify.app/style.css">
+
+</head>
+<body>
+
+        <img src="https://brewbox.netlify.app/images\logo (2).png" height="150"width="400">
+        <img src="https://brewbox.netlify.app/images\fastdelivery.jpg" height="150"width="250">
+        <img src="https://brewbox.netlify.app/images\dtdc_logo.jpg" height="150"width="250">
+
+        <div class="topnav">
+            <a class="active" href="https://brewbox.netlify.app/">Home</a>
+            <a href="https://brewbox.netlify.app/about.html">About</a>
+            <a href="https://brewbox.netlify.app/contact.html">Contact</a> 
+        </div>
+            <div class="dropdown">
+                <button style="font-size:35px" onclick="myFunction()" class="dropbtn"> Search... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     &#128269; </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Type your category.." id="myInput" onkeyup="filterFunction()">
+                  <a class="active" href="clothing.html">Clothing & dresses</a>
+                  <a href="shoes.html">Shoes & sandels</a>
+                  <a href="watches.html">wall & Wrist Watches</a>
+                  <a href="glasess.html">Glasses & shades</a>
+                  <a href="homecare.html">Homecare</a>
+                  <a href="cossmetics.html">Cosmetics</a>
+                  <a href="books.html">Books</a>
+                  <a href="m&waccccessries.html">Men & Women accessories</a>
+                  <a href="caraccessories.html">Car accessories</a>
+                  <a href="bikeacccessories.html">Bike accessories</a>                
+                </div>
+ <script>
+     /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+     }
+          
+     function filterFunction() {
+     var input, filter, ul, li, a, i;
+     input = document.getElementById("myInput");
+     filter = input.value.toUpperCase();
+     div = document.getElementById("myDropdown");
+     a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+     txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                  } else {
+                    a[i].style.display = "none";
+                  }
+                }
+              }
+              </script>
+            </div>
+          </br>
+
+     <h1>Description</h1> 
+     <center>
+     <img src="https://brewbox.netlify.app/images\watches\couple-01.jpeg" height="1050" width="750">
+     
+
+<!--product name and modle number-->
+<h1><strong><big><big><font color="blue">couple watches</font> </big></big><font color="darkred">by <i>Lucky Collections</i>.</font></strong></br></h1>
+
+<!--raaing & availibility-->
+<a class ="rating-link" href="https://brewbox.netlify.app/">
+    <strong><big><big><big><big>  <b>4.5</b> <img src="https://brewbox.netlify.app/images\star-preview.png" height="35" width="35"></a> 471 rating out of 500
+    <img src="https://brewbox.netlify.app/images\available.png" height="35" width="35"><font color="green">available</font></br></strong></big></big></big>
+
+<h2><font color="blue">Special price</font></h2>
+
+<!--product price & disccount-->
+<strong><big><big><big><big>&#8377;<font color="green">375</font> only </strong><del>
+    <big><font color="gray"> &#8377;750</font></big></del> <i> 50% off.</i></big>
+
+    <!--about product  in table-->
+    <h2>Product Description</h2>
+           <table>
+            <tr><td>Quality</td><td align="left">: Orignal by Lucky collections. </td> </tr>   
+            </table>
+             <table>
+                <tr><td>Warrenty</td><td align="left">: NA. </td> </tr>   
+                </table>
+                <table>
+                    <tr><td>Guarentee</td><td align="left">: NA. </td> </tr>   
+                    </table>
+                    <table>
+                      <tr><td>Shipping Charge</td><td align="left">: FREE</td> </tr>   
+                      </table>
+                    </br>
+           
+           <a class="active" href="https://forms.gle/fEPD4BvEVT4ayQzL8"><button><h1> Order Now </h1></button></a>
+           <a class="active" href="https://brewbox.netlify.app/images\watches\chronograph.html"><button><h1>  &#x2190; Back  </h1></button></a>
+           <a class="active" href="https://brewbox.netlify.app/"><button><h1>  &#127968; Home  </h1></button></a>
+        </br></br>
+        <hr>
+        <center><font color="blue"><b>BREWBOX</b></font></BR>
+        </center><p><b>mail us:</b> brewbox.helpdesk@gmail.com </br> <b>Contact us:</b> +91 8355094334 </br>
+          <b>Website:</b> brewbox.netlify.app</p></center>
+</body>
+   
+</html>
+
