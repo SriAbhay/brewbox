@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>brewbox</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <img src="images\logo (2).png" height="150"width="400">
+  <img src="images\fastdelivery.jpg" height="150"width="250">
+  <img src="images\dtdc_logo.jpg" height="150"width="250">
+
+
+        <div class="topnav">
+            <a class="active" href="https://brewbox.netlify.app/">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a> 
+        </div>
+            <div class="dropdown">
+                <button style="font-size:35px" onclick="myFunction()" class="dropbtn">Select your Category here <i class="fa fa-hand-o-up"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Type your category.." id="myInput" onkeyup="filterFunction()">
+                  <a class="active" href="clothing.html">Clothing & dresses</a>
+                  <a href="shoes.html">Shoes & sandels</a>
+                  <a href="watches.html">wall & Wrist Watches</a>
+                  <a href="glasess.html">Glasses & shades</a>
+                  <a href="homecare.html">Homecare</a>
+                  <a href="cossmetics.html">Cosmetics</a>
+                  <a href="books.html">Books</a>
+                  <a href="m&waccccessries.html">Men & Women accessories</a>
+                  <a href="caraccessories.html">Car accessories</a>
+                  <a href="bikeacccessories.html">Bike accessories</a>                
+                </div>
+ <script>
+     /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+     }
+          
+     function filterFunction() {
+     var input, filter, ul, li, a, i;
+     input = document.getElementById("myInput");
+     filter = input.value.toUpperCase();
+     div = document.getElementById("myDropdown");
+     a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+     txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                  } else {
+                    a[i].style.display = "none";
+                  }
+                }
+              }
+              </script>
+            </div>
+
+      <!--image scroll started-->
+          </br>
+     <h1>women accessories - Earings</h1> <center>
+     <h2><big>Flat <font color="red">20% Discount</font> on Rabiya Collections Earings</big></br>
+       <b>4.2&#11088; by 5&#11088; ratings.</b></br>
+      <b><font color="blue">Orignal Stones by Rabiya collection</font></b></h2><br/>
+     <center>
+<table>
+<tr><td> <a href="images\m&waccessories\womenaccessoriess\necklace\neck1.html">
+  <img src="images\m&waccessories\womenaccessoriess\necklace\neck01.jpeg" height="550" width="450"></a></br>
+  <h1><big>&#x20b9; 89/- only</big></br>
+  <b>&#11088; &#11088; &#11088; &#11088;4.2 by 5&#11088;</b></br>
+  <b><font color="blue">Rabiya collection</font></b></br>
+  <b><font color="gray">view more...</font></b></br></td>
+</tr>
+    
+    </table>
+   </br></br>
+    <a class="active" href="https://brewbox.netlify.app/"><button><h1>  &#127968; Home  </h1></button></a>
+</br></br>
+<hr>
+<center><font color="blue"><b>BREWBOX</b></font></BR>
+<center><p><b>mail us:</b> brewbox.helpdesk@gmail.com </br> <b>Contact us:</b> +91 8355094334 </br>
+<b>Website:</b> brewbox.netlify.app</p></center>
+</body>
+
+</html>
